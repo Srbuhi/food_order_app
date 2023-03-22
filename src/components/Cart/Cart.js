@@ -11,7 +11,7 @@ const Cart = () => {
                     </ul>
 
   return (
-    <div>
+    <Modal>
       {cartItem}
       <div className={classes.total}>
         <span>Total Amount</span>
@@ -21,7 +21,7 @@ const Cart = () => {
         <button className={classes['button--alt']}>Close</button>
         <button className={classes.button}>Order</button>
       </div>
-    </div>
+    </Modal>
   )
 }
 
