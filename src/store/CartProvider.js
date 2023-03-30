@@ -1,4 +1,5 @@
-import {CartContext} from './cart-context';
+import React from 'react';
+import CartContext from './cart-context'
 
 const CartProvider = (props) => {
 
